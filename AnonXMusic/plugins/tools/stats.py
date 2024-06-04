@@ -146,11 +146,6 @@ async def brah(_, msg):
 async def brah2(_, msg):
     await msg.reply("😕VιԃҽσCԋαƚEɳԃ🇲🇲")
 
-# owner 
-@app.on_message(filters.owner_နို့ဘူးကောင်_နို့ကြိုက်ကောင်_botowner_မသေမျိုးလေး)
-async def brah3(_, msg):
-    await msg.reply("🙄 @NhoeKyaiteKaungLayy ✌")
-
 # invite members on vc
 @app.on_message(filters.video_chat_members_invited)
 async def brah3(app: app, message: Message):
