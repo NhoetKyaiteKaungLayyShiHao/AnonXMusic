@@ -138,14 +138,18 @@ async def bot_stats(client, CallbackQuery, _):
 # vc on
 @app.on_message(filters.video_chat_started)
 async def brah(_, msg):
-    await msg.reply("😍ဗီဒီယိုစကားပြောစတင်ခဲ့သည်😍")
+    await msg.reply("🇲🇲VιԃҽσCԋαƚSƚαɾƚҽԃ🇲🇲")
 
 
 # vc off
 @app.on_message(filters.video_chat_ended)
 async def brah2(_, msg):
-    await msg.reply("😕ဗီဒီယိုစကားပြောရပ်တန့်လိုက်သည်😕")
+    await msg.reply("😕VιԃҽσCԋαƚEɳԃ🇲🇲")
 
+# owner 
+@app.on_message(filters.owner_နို့ဘူးကောင်_နို့ကြိုက်ကောင်_botowner_မသေမျိုးလေး)
+async def brah3(_, msg):
+    await msg.reply("🙄 @NhoeKyaiteKaungLayy ✌")
 
 # invite members on vc
 @app.on_message(filters.video_chat_members_invited)
