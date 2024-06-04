@@ -10,18 +10,18 @@ from pyrogram.types import (
     Message,
 )
 from config import LOGGER_ID as LOG_GROUP_ID
-from BrandrdXMusic import app
-from BrandrdXMusic.core.userbot import Userbot
-from BrandrdXMusic.utils.database import delete_served_chat
-from BrandrdXMusic.utils.database import get_assistant
+from AnonXMusic import app
+from AnonXMusic.core.userbot import Userbot
+from AnonXMusic.utils.database import delete_served_chat
+from AnonXMusic.utils.database import get_assistant
 
 
 photo = [
-    "https://te.legra.ph/file/758a5cf4598f061f25963.jpg",
-    "https://te.legra.ph/file/30a1dc870bd1a485e3567.jpg",
-    "https://te.legra.ph/file/d585beb2a6b3f553299d2.jpg",
-    "https://te.legra.ph/file/7df9e128dd261de2afd6b.jpg",
-    "https://te.legra.ph/file/f60ebb75ad6f2786efa4e.jpg",
+    "https://te.legra.ph/file/ab427471fb663d2c5f219.jpg",
+    "https://te.legra.ph/file/ca8215fe9fc50fa7304a8.jpg",
+    "https://te.legra.ph/file/228dbb2b39a04f527b395.jpg",
+    "https://te.legra.ph/file/f17ef460d110a1a74aa17.jpg",
+    "https://te.legra.ph/file/f30eb57dbf57eb46d865f.jpg",
 ]
 
 
